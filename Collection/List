@@ -1,0 +1,17 @@
+一、线程安全性
+
+Vector：线程安全
+ArrayList、LinkedList：非线程安全
+
+二、实现方式
+LinkedList：双向链表
+
+ArrayList，Vector：数组
+
+
+
+三、容量扩展
+
+ Vector 默认 扩充 为 原来 的 2 倍（ 每次 扩充 空间 的 大小 是 可以 设置 的）
+
+ArrayList 默认 扩充 为 原来 的 1. 5 倍（ 没有 提供 方法 来 设置 空间 扩充 的 方法）。
