@@ -4,14 +4,14 @@ Vector：线程安全
 ArrayList、LinkedList：非线程安全
 
 二、实现方式
-LinkedList：双向链表
+LinkedList：双向链表，随机访问比较慢，适合中间插入/删除元素
 
-ArrayList，Vector：数组
+ArrayList，Vector：数组，适合随机访问的场合，尾部插入和删除元素
 
 
 
 三、容量扩展
 
- Vector默认扩充为原来的2倍（每次扩充空间的大小是可以设置的）
+Vector默认扩充为原来的2倍（每次扩充空间的大小是可以设置的）
 
 ArrayList 默认扩充为原来的1.5倍（没有提供方法来设置空间扩充的方法）。

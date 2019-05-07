@@ -1,0 +1,7 @@
+
+Hashtable、HashMap、TreeMap 有什么不同
+
+
+Hashtable是早期java类库提供的一个哈希表的实现，本身是同步的，不支持null作为键或者值，因为是同步的，性能较差，不推荐使用。
+
+HashMap行为上大致与HashTable一致，不过不是同步的，支持null作为键或者值。
