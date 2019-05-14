@@ -1,4 +1,4 @@
-public class SingletonHungerHunger {
+public class SingletonHunger {
     private static SingletonHunger instance = new SingletonHunger();
 
     private SingletonHunger() {
